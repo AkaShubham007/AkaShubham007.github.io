@@ -1,0 +1,48 @@
+body{
+    background-color: #3A1F3B;
+}
+h1{color:black;
+background-color: whitesmoke;}
+h2{
+    color: purple;
+    background-color: aqua;
+}
+p{
+    color : yellow;
+}
+a {
+    color : white ;
+}
+/* type of css selector  */
+/* css element selector  */
+/* css id selector */
+/* css class selector */
+/* the css groupin selector */
+/* example of id selsctor */
+#top{
+    color: hotpink;
+    background-color: black;
+
+}
+ol{
+    color: azure;
+}
+form{
+    color: azure;
+}
+table{
+    color: azure;
+}
+#mitr{
+    color: azure;
+}
+ul{ 
+    color: azure;
+}
+span{
+    color: bisque;
+    border: 2px solid hotpink;
+}
+details{
+    color:azure
+}
