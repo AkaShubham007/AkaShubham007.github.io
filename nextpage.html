@@ -25,20 +25,85 @@
         Bunk na karne wale bss yahi dikkat h
     </span>
     <p>
-        NO. OF STUDENTS 87<br><hr>
+        NO. OF STUDENTS : 87<br><hr>
     </p>
         <!-- inline css ko yada importance deti h  -->
         <!-- jo angullar braket k aandar lgatay ha use mat karo avoid it -->
         <!-- now internal css ye head mein likhi jaati h same as external css -->
         <h1>Sachin Fauzdar urf Fauzdar Sahab</h1>
-        <h2>Dikkat kaha aa rhi h </h2>
         <ul type="square">
             <li>
-                Jaat of Bharatpur
+                Dikkat kaha aa rhi h </li>
+               <li> Jaat of Bharatpur
             </li>
+
+            <li> Topper Boy </li>
         </ul>
         <a href="https://www.instagram.com/sachin.faujdar.rj05/"target="_blank"><strong> Fauzdar Insta</strong></a><br><br>
         <img src="Fauzdar.jpeg" alt="Sachin Fauzdar" srcset=""><hr>
-        <h3>&nbsp;&nbsp;End</h3>
-        <a href="index.html"target = "_blank"><strong> back to previous page</strong></a>
+         <!-- forms -->
+        <form action="backend.php">
+            <h2 id = "AddYourself">
+                Add Yourself
+            </h2>
+            <div>
+                <label for="Naam"> Name : </label>
+                <input type="text" name="Name" id="Naam">
+            </div>
+            <br>
+            <div>
+                Location : <input type="text" name="location">
+            </div>
+            <br>
+            <div>
+                Email: <input type="email" name="myEmail">
+            </div>
+            <br>
+            <div>
+                Date : <input type="date" name=" Date">
+            </div>
+            <br>
+            <div>
+                    Contact : <input type="number" name=" days">
+            </div>
+            <br>
+            <div>
+                Do you know me ? : <input type="checkbox" name="authorized" >
+            </div>
+            <br>
+            <div>
+                Gender: Male <input type="radio" name="myGender">
+                Female <input type="radio" name="myGender">
+                other <input type="radio" name="myGender">
+            </div>
+            <br>
+            <div>
+                Write something about yourself : <br><br>
+                <textarea name="mytext" cols="52" rows="30">
+
+            </textarea>
+            </div>
+            <br>
+            <div>
+                <label for="nationality">Nationality : </label>
+                <select name="NATION" id="nationality">
+                    <option value="Indian">Indian</option>
+                    <option value="Russian">Russian</option>
+                    <option value="Chinese"> Chinese</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="pic">Upload your Pic : </label>
+                <input type="file"id="pic">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit now">
+                <input type="reset" value="Reset Now">
+            </div>
+
+        </form>
+        <h3>&nbsp;&nbsp;End</h3><hr>
+        <a href="index.html"><strong> back to previous page</strong></a>
         </body>
