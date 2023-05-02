@@ -1,3 +1,11 @@
+/* selectors   are used to find the element whose property will be set*/
+/* type of css selector  */
+/* css element selector  */
+/* css id selector */
+/* css class selector */
+/* the css groupin selector */
+
+/* example of element selector */
 body{
     background-color: #3A1F3B;
 }
@@ -10,20 +18,25 @@ h1{
 
 h2{
     color: purple;
-    background-color: aqua;
+    background-color:  aqua;
    text-align: center;
+   font-size: 35px;
+   border-width: 4px;
+   border-color: #3A1F3B;
+   border-style:dashed;
+    border-radius: 11px;
+   /* font */
+    font-family :cursive;
 }
 p{
-    color : yellow;
+    color : aquamarine;
+    font-size: 20px;
+    /* space we will leave  */
+    line-height: 1.5em;
 }
 a {
     color : white ;
 }
-/* type of css selector  */
-/* css element selector  */
-/* css id selector */
-/* css class selector */
-/* the css groupin selector */
 /* example of id selector */
 #top{
     color: hotpink;
@@ -59,9 +72,23 @@ details{
 #mirzapur{
     color: whitesmoke; 
     border: none;
+
 }
 #family{
     color:black;
     background-color: yellow;
     border: 2px solid blueviolet;
 }
+#detail{
+    font-style: italic;
+}
+
+/* example of class selector */
+/* .bggood{ */
+    /* background-color: rgb(255, 0, 0); */
+/* border: 2px solid black; */
+/* } */
+/* grouping selector */
+/* element ki grouping */
+/* developer tools */
+
