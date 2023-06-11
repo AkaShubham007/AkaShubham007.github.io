@@ -22,11 +22,11 @@ h2{
    text-align: center;
    font-size: 35px;
    border-width: 4px;
-   border-color: #3A1F3B;
+   border-color: #8a077f;
    border-style:dashed;
     border-radius: 11px;
    /* font */
-    font-family :cursive;
+
 }
 p{
     color : aquamarine;
@@ -35,12 +35,27 @@ p{
     line-height: 1.5em;
 }
 a {
-    color : white ;
+    text-decoration: none;
+    color: aliceblue;
+   background-color: rgb(47, 49, 174);
+    padding:6px;
+    cursor: pointer;
+    border-radius: 4px;
 }
+
+a:hover{
+    color:black;
+    background-color: aqua;
+}
+a:visited{
+    color:yellow;
+}
+
 /* example of id selector */
 #top{
     color: hotpink;
-    background-color: black;
+    background-color:black;
+
 
 }
 ol{
@@ -66,8 +81,17 @@ details{
     color:azure
 }
 #AddYourself{
+    color: purple;
+    background-color:  aqua;
+   text-align: center;
+   font-size: 35px;
+   border-width: 4px;
+   border-color: #8a077f;
+   border-style:dashed;
+    border-radius: 8px;
     color: black;
-    background-color: green;
+    background-color:aqua;
+    text-align: center;
 }
 #mirzapur{
     color: whitesmoke; 
@@ -76,13 +100,41 @@ details{
 }
 #family{
     color:black;
-    background-color: yellow;
+    background-color: rgb(190, 166, 207);
     border: 2px solid blueviolet;
 }
 #detail{
     font-style: italic;
 }
+.HI{
+    padding: 6px;
+    border:2px solid blanchedalmond;
+    margin : 2px;
+}
+h4{
+    text-align: left;
+     width: 300px;
+    color: rgb(147, 193, 193);
+   font-size: 30px;
+}
+.cont{
+    color: rgb(211, 221, 214);
+}
+:link 
+{
+    text-decoration: none;
+    text-align: center;
+    background-color: yellow;
 
+}
+
+/*
+.btn{
+    background-color: rgb(47, 49, 174);
+    padding:6px;
+    cursor: pointer;
+    border-radius: 4px;
+}
 /* example of class selector */
 /* .bggood{ */
     /* background-color: rgb(255, 0, 0); */
@@ -91,4 +143,3 @@ details{
 /* grouping selector */
 /* element ki grouping */
 /* developer tools */
-
