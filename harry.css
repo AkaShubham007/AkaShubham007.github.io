@@ -33,6 +33,7 @@ p{
     font-size: 20px;
     /* space we will leave  */
     line-height: 1.5em;
+    align-items: center;
 }
 a {
     text-decoration: none;
@@ -120,13 +121,7 @@ h4{
 .cont{
     color: rgb(211, 221, 214);
 }
-:link 
-{
-    text-decoration: none;
-    text-align: center;
-    background-color: yellow;
 
-}
 
 /*
 .btn{
